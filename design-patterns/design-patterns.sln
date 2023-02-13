@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalPatterns", "Creat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{FD0A0C6C-3A28-4B0D-8998-FB72341D3B17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "CreationalPatterns\FactoryMethodPattern\FactoryMethodPattern.csproj", "{A20313D5-3915-4AFE-A767-FBB155C841B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethodPattern", "CreationalPatterns\FactoryMethodPattern\FactoryMethodPattern.csproj", "{A20313D5-3915-4AFE-A767-FBB155C841B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern", "AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{7D41AA11-6E63-42DE-8469-F3523CDBACA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{A20313D5-3915-4AFE-A767-FBB155C841B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A20313D5-3915-4AFE-A767-FBB155C841B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A20313D5-3915-4AFE-A767-FBB155C841B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D41AA11-6E63-42DE-8469-F3523CDBACA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D41AA11-6E63-42DE-8469-F3523CDBACA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D41AA11-6E63-42DE-8469-F3523CDBACA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D41AA11-6E63-42DE-8469-F3523CDBACA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{FD0A0C6C-3A28-4B0D-8998-FB72341D3B17} = {EA263801-BA4F-4360-BD6C-0BB8912348A0}
 		{A20313D5-3915-4AFE-A767-FBB155C841B0} = {EA263801-BA4F-4360-BD6C-0BB8912348A0}
+		{7D41AA11-6E63-42DE-8469-F3523CDBACA9} = {EA263801-BA4F-4360-BD6C-0BB8912348A0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5BAD540C-07D0-4764-B978-D506B7CDF5AA}
